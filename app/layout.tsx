@@ -31,7 +31,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="th"> {""}
+    <html lang="th"> 
       <body
         // 3. เพิ่ม promptFont.className เข้าไปใน body
         className={`${promptFont.className} ${geistSans.variable} ${geistMono.variable} antialiased`}
